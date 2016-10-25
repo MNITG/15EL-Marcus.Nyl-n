@@ -1,0 +1,31 @@
+import javax.swing.*;
+import java.awt.*;
+
+public class Spel extends JFrame {
+	private int width = 100;
+	private int height = 100;
+	private int d = 50;
+	public Spel(){
+		JFrame frame = new JFrame();
+		setSize(700, 800); //x,y
+		setLocation(300,300);
+		setDefaultCloseOperation(3);
+		setTitle("Mitt första Spel projekt");
+		setResizable(false);
+		setVisible(true);
+	}
+public static void main(String[] args){
+	new Spel();
+}
+public void paint(Graphics g){
+	
+	g.setColor(Color.red);
+	g.drawRect(70, 100, width, height);
+	g.setColor(Color.GREEN);
+	g.fillRect(160, 200, width, height);
+	g.setColor(Color.blue);
+	g.drawOval(30, 250, d, d);
+	g.setColor(Color.orange);
+	g.fillOval(400, 520, width, height);
+}
+}
