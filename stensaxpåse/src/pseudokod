@@ -1,0 +1,14 @@
+int dator;
+int spelare;
+Slumpa dator mellan 0-2
+// 0= sten 1= sax 2=påse
+skriv ut regler
+spelare 0-2
+om spelare = 0 och dator =1
+eller spelare = 1 och dator = 2
+eller spelare = 2 och dator 0
+skriv ut "du vann!"
+annars om spelare=dator
+skriv ut oavgjort!
+annars
+skriv ut rip!
